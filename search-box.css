@@ -1,0 +1,26 @@
+.search-content{
+    position: relative;
+width: 40px;
+height: 40px;
+
+}
+
+.search-icon{   
+display: flex;
+justify-content: center;
+align-items: center;
+position:absolute;
+width: 40px;
+height: 40px;
+background-color: tomato;
+border-radius: 50px;
+}
+
+.search-icon::before{
+content: "";
+background-color: #000;
+width: 25%;
+height: 25|%;
+border-radios: 50%;
+
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.corpo{
+    background-image: linear-gradient(navy,purple );
+
+
+}
+.arrumar-corpo{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 101px; 
+    font-size: 30px;
+    margin-left: 300px;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    background-color: black;
+    color: purple;
+
+}
+.pe{
+    margin-top: 118px;
+    background-color: blueviolet;
+}
+.serie{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.filme{
+    font-size: 80px;
+}
